@@ -1,4 +1,6 @@
-// An example about hello black cat in Rust
+use std::num::Saturating;
+
+// An example about Saturating MIN in Rust
 fn main() {
-    println!("The quick black cat jumps over the lazy dog");
+    assert_eq!(<Saturating<usize>>::MIN, Saturating(usize::MIN));
 }
