@@ -4,7 +4,7 @@
 2. He's Rustaceans.
 3. He love cats.
 
-# An example about hello cat and dog in Rust
+# An example about hello cat in Rust
 
 ```rust
 fn main() {
